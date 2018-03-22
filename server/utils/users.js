@@ -6,9 +6,7 @@ class Users {
   addUser (id, name, room) {
 
     var user = {id, name, room};
-    console.log('Before push ', this.users);
     this.users.push(user);
-    console.log(this.users);
     return user;
 
   };
